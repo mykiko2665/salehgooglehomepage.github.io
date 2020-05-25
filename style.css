@@ -1,0 +1,154 @@
+@root {
+  font-size: 16px;
+}
+
+button:focus, input:focus, textarea:focus, select:focus {
+   outline: none;
+}
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+.bell {
+  width: 25px;
+}
+.navstuff {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.navlinks {
+  padding: 8px;
+  font-size: 0.8rem;
+}
+.sign-in {
+  background-color: #4484f1;
+  color: white;
+  border: 0;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+.main {
+  margin-top: 4.9rem;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.logo-pic {
+  width: 272px;
+  height: 90px;
+}
+.search-wrapper {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+.search {
+  width: 598px;
+  border: 1px solid #d9d9d9;
+  border-radius: 55px;
+  font-size: 17px;
+  height: 44px;
+  position: static;
+  vertical-align: middle;
+}
+.search:hover{
+  	box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  	border-color: rgba(223, 225, 229, 0);
+}
+.search input {
+  width: 510px;
+  border: none;
+  margin-top: 2px;
+  font-size: 17px;
+  height: 38px;
+  padding: 0;
+}
+.right {
+  width: 17px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 22px;
+  padding-top: 12px;
+  
+}
+.left {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 22px;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.buttons button {
+  border: 1px solid #f2f2f2;
+  color: #5F6368;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+.buttons button:hover {
+  border: 0.5px solid;
+  border-color: lightgray;
+  box-shadow: 0 1px 3px 0 rgba(32, 33, 36, 0.28);
+}
+.bleft {
+  margin-right: 5px;
+}
+.bright {
+  margin-left: 5px;
+}
+.footer-section {
+  background-color: #f1f1f1;
+  position: absolute;
+  bottom: 0;
+  height: 2.3rem;
+  width: 100%;
+  border-top: 1px solid lightgray;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  height: 2.3rem;
+  align-items: center;
+  padding: 0 15px 0 0;
+}
+ul {
+  padding: 1.5rem;
+}
+.column {
+  margin: 0;
+}
+.column li {
+  list-style: none;
+}
+footer .row .column {
+  display: flex;
+}
+.footerlinksleft {
+  padding-right: 10px;
+}
+.footerlinksright {
+  padding-left: 10px;
+}
